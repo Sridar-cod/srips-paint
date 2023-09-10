@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Transform</title>
+    <link rel="stylesheet" href="HT.css">
+    <link rel="html" href="index2.html">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- <div class="img"></div> -->
+
+<nav><h4>SRIPS PAINT</h4>
+    <!-- <div class="reg"><button type="button">Register</button></div>  -->
+<ul>
+<li><a href="cal.html">Paint calculator</a></li>
+<!-- <li><a href="WCU/wcu.html">Why choose us?</a></li> -->
+<li><a href="CAP/cap.html">Choose a plan</a></li>
+<li><a href="HIW/hiw.html">How it works?</a></li>
+</ul> 
+<div    onclick="nav()" class="NavBoxMain">
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div> 
+</div>
+<div class="LinkBox"> <ul>
+    <li><a href="cal.html">Paint calculator</a></li>
+    <!-- <li><a href="WCU/wcu.html">Why choose us?</a></li> -->
+    <li><a href="CAP/cap.html">Choose a plan</a></li>
+    <li><a href="HIW/hiw.html">How it works?</a></li>
+    </ul>
+</div>
+</nav>
+
+<div class="welcome"><h1> WELCOME TO <br> <span>SRIPS PAINT</span></h1>
+</div>
+
+
+<div class="book">
+    <div class="inner">
+    <h5>Get the right assistance for all your painting needs</h5>
+    <form action=" form.html" >
+        <input  id="name"  type="text" name="name" placeholder="Name" required>
+       
+        <input id="email" name="email"  type="email" placeholder="Email" required>
+        <div class="output">
+            <h2></h2>
+        </div>   
+        <input  id="mobile" name="mobile" type="mobile" placeholder="Mobile" required>
+        <input type="pincode" id="pincode" name="pincode" placeholder="Pincode" required>
+        <button class="button" type="reset">RESET</button>
+    <button type="submit" onclick="button()" >Book your Slot</button>  </form></div>
+</div> 
+<div class="call"><small>To paint your home, please give us a call at. 1800-209-5678</small></div>
+
+<div class="infor"><h4>GET YOUR HOME PAINTED IN THE SAFEST WAY</h4> <small>Sripes Paints Safe Painting Service, a dealer owned service- re-imagine your home as a huge canvas. Our aim is to make home painting safe and great experience with end-to-end execution! </small></div>
+<script>
+    function nav(){
+    // const nav = document.querySelector(".box");
+    const LinkBox = document.querySelector(".LinkBox");
+LinkBox.style.display = "flex";
+}
+</script>
+</body>
+</html>
